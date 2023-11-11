@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Musical</title>
+    <style>
+        .card {
+            border: 1px solid black;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" onclick="tocarMusica()">
+        <h2>Card Musical</h2>
+        <p>Clique para tocar música</p>
+    </div>
+
+    <audio id="musica" src="caminho/para/sua/musica.mp3" preload="auto"></audio>
+
+    <script>
+        function tocarMusica() {
+            document.getElementById('musica').play();
+        }
+    </script>
+</body>
+</html>

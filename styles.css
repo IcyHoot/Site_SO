@@ -1,0 +1,19 @@
+html {
+    background-color: gray;
+    width: 100%;
+}
+
+body {
+    background-image: src="src/Background/telaAzulMorte.png";
+}
+
+.bigConteiner {
+    padding: 10%;
+    justify-content: center;
+}
+
+.Fidepapai {
+    width: 20%;
+    scale: 90%;
+    height: 100%;
+}
